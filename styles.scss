@@ -1,0 +1,57 @@
+$font-stack: "Press Start 2P", cursive;
+$black-color: #080202;
+$black-tiles: #320000;
+$white-tiles: #ded6d6;
+$accent-color: #ded6d6;
+
+@import "./partials/tiles";
+@import "./partials/keyframes";
+@import "./partials/animations";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-width: 500px;
+  min-height: 400px;
+  padding-bottom: 15vh;
+  overflow: hidden;
+  background-image: url(./assets/background.png);
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 7vh;
+  padding-bottom: 5vh;
+  font-family: $font-stack;
+  text-align: center;
+  font-size: 60px;
+  color: $black-color;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr repeat(8, 2fr) 1fr;
+  grid-template-rows: 1fr repeat(8, 2fr) 1fr;
+  width: 40vw;
+  min-width: 400px;
+  color: $accent-color;
+  margin: auto;
+  position: relative;
+}
+
+.invert {
+  transform: scale(-1);
+}
+
+img {
+  display: grid;
+  position: absolute;
+  width: 90%;
+  aspect-ratio: 1 / 1;
+  z-index: 1;
+}

@@ -1,0 +1,45 @@
+
+.container:hover .container {
+    animation-play-state: paused;
+  }
+  
+  .container {
+    animation-iteration-count: infinite;
+  }
+
+  .white-pawn-e {
+    animation: double-up 1000ms ease forwards,
+    double-up-out 1000ms ease 5500ms forwards;
+  }
+  
+  .black-pawn-c {
+    animation: down 1000ms ease 1000ms forwards;
+  }
+
+  .white-pawn-d {
+    animation: double-up 1000ms ease 2000ms forwards;
+  }
+  
+  .black-pawn-d {
+    animation: double-down 1000ms ease 3000ms forwards,
+    double-down-right 1000ms ease 5000ms forwards,
+    double-down-right-out 1000ms ease 6500ms forwards;
+  }
+  
+  .white-knight-b {
+    animation: double-up-right 1000ms ease 4000ms forwards,
+    up-double-right 1000ms ease 6000ms forwards,
+    double-up-left 1000ms ease 10500ms forwards;
+  }
+
+  .black-knight-b {
+    animation: down-double-right 1000ms ease 7500ms forwards;
+  }
+
+  .white-queen {
+   animation: up-right 1000ms ease 8500ms forwards;
+  }
+ 
+  .black-knight-g {
+    animation: double-down-left 1000ms ease 9500ms forwards;
+  }
