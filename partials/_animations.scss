@@ -1,15 +1,7 @@
 
-.container:hover .container {
-    animation-play-state: paused;
-  }
-  
-  .container {
-    animation-iteration-count: infinite;
-  }
-
   .white-pawn-e {
     animation: double-up 1000ms ease forwards,
-    double-up-out 1000ms ease 5500ms forwards;
+    double-up-out 1000ms ease 5000ms forwards;
   }
   
   .black-pawn-c {

@@ -328,19 +328,9 @@
     transform: translateY(-575%) translateX(230%);
   }
 }
-.container:hover .container {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-.container {
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
 .white-pawn-e {
-  -webkit-animation: double-up 1000ms ease forwards, double-up-out 1000ms ease 5500ms forwards;
-          animation: double-up 1000ms ease forwards, double-up-out 1000ms ease 5500ms forwards;
+  -webkit-animation: double-up 1000ms ease forwards, double-up-out 1000ms ease 5000ms forwards;
+          animation: double-up 1000ms ease forwards, double-up-out 1000ms ease 5000ms forwards;
 }
 
 .black-pawn-c {
@@ -399,7 +389,7 @@ h1 {
   padding-bottom: 5vh;
   font-family: "Press Start 2P", cursive;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   color: #080202;
 }
 
