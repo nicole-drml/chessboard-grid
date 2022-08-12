@@ -16,12 +16,15 @@ $accent-color: #ded6d6;
 
 body {
   width: 100vw;
-  min-width: 500px;
-  min-height: 400px;
+  height: 100vh;
+  min-width: 440px;
+  min-height: 500px;
   padding-bottom: 15vh;
   overflow: hidden;
   background-image: url(./assets/background.png);
   background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -29,7 +32,6 @@ h1 {
   padding-bottom: 5vh;
   font-family: $font-stack;
   text-align: center;
-  font-size: 50px;
   color: $black-color;
 }
 
@@ -37,11 +39,11 @@ h1 {
   display: grid;
   grid-template-columns: 1fr repeat(8, 2fr) 1fr;
   grid-template-rows: 1fr repeat(8, 2fr) 1fr;
-  width: 40vw;
-  min-width: 400px;
   color: $accent-color;
-  margin: auto;
-  position: relative;
+  position: fixed;
+  width: 40vw;
+  min-width: 200px;
+  margin-left: 30%;
 }
 
 .invert {
