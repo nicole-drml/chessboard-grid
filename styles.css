@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .black-tiles,
 .white-tiles {
   display: grid;
@@ -370,12 +376,6 @@
 .black-knight-g {
   -webkit-animation: double-down-left 1000ms ease 9500ms forwards;
           animation: double-down-left 1000ms ease 9500ms forwards;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {

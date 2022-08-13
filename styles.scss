@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 $font-stack: "Press Start 2P", cursive;
 $black-color: #080202;
 $black-tiles: #320000;
@@ -7,12 +13,6 @@ $accent-color: #ded6d6;
 @import "./partials/tiles";
 @import "./partials/keyframes";
 @import "./partials/animations";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   width: 100vw;
